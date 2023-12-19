@@ -1,7 +1,9 @@
-CREATE TABLE IF NOT EXISTS "ret_20_paises"(
-  "id" text not null,
-  "texto" text not null,
-  "vigencia_desde" text not null,
-  "vigencia_hasta" text not null,
-  PRIMARY KEY("id")
+DROP TABLE IF EXISTS ret_20_paises;
+
+CREATE TABLE ret_20_paises (
+  id VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  vigencia_desde TEXT NOT NULL,
+  vigencia_hasta TEXT NOT NULL,
+  PRIMARY KEY (id)
 );
