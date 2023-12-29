@@ -1,7 +1,10 @@
-CREATE TABLE IF NOT EXISTS "cfdi_metodos_pago"(
-  "id" text not null,
-  "texto" text not null,
-  "vigencia_desde" text not null,
-  "vigencia_hasta" text not null,
-  PRIMARY KEY("id")
+DROP TABLE IF EXISTS cfdi_metodos_pago;
+
+CREATE TABLE cfdi_metodos_pago (
+  id VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  vigencia_desde TEXT NOT NULL,
+  vigencia_hasta TEXT NOT NULL,
+  PRIMARY KEY(id)
 );
+

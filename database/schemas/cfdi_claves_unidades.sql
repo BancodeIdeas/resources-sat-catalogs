@@ -1,10 +1,12 @@
-CREATE TABLE IF NOT EXISTS "cfdi_claves_unidades"(
-  "id" text not null,
-  "texto" text not null,
-  "descripcion" text not null,
-  "notas" text not null,
-  "vigencia_desde" text not null,
-  "vigencia_hasta" text not null,
-  "simbolo" text not null,
-  PRIMARY KEY("id")
+DROP TABLE IF EXISTS cfdi_claves_unidades;
+
+CREATE TABLE cfdi_claves_unidades (
+  id VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  descripcion TEXT NOT NULL,
+  notas TEXT NOT NULL,
+  vigencia_desde TEXT NOT NULL,
+  vigencia_hasta TEXT NOT NULL,
+  simbolo TEXT NOT NULL,
+  PRIMARY KEY(id)
 );

@@ -1,17 +1,19 @@
-CREATE TABLE IF NOT EXISTS "cfdi_formas_pago"(
-  "id" text not null,
-  "texto" text not null,
-  "es_bancarizado" int not null,
-  "requiere_numero_operacion" int not null,
-  "permite_banco_ordenante_rfc" int not null,
-  "permite_cuenta_ordenante" int not null,
-  "patron_cuenta_ordenante" text not null,
-  "permite_banco_beneficiario_rfc" int not null,
-  "permite_cuenta_beneficiario" int not null,
-  "patron_cuenta_beneficiario" text not null,
-  "permite_tipo_cadena_pago" int not null,
-  "requiere_banco_ordenante_nombre_ext" int not null,
-  "vigencia_desde" text not null,
-  "vigencia_hasta" text not null,
-  PRIMARY KEY("id")
+DROP TABLE IF EXISTS cfdi_formas_pago;
+
+CREATE TABLE cfdi_formas_pago (
+  id VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  es_bancarizado INT NOT NULL,
+  requiere_numero_operacion INT NOT NULL,
+  permite_banco_ordenante_rfc INT NOT NULL,
+  permite_cuenta_ordenante INT NOT NULL,
+  patron_cuenta_ordenante TEXT NOT NULL,
+  permite_banco_beneficiario_rfc INT NOT NULL,
+  permite_cuenta_beneficiario INT NOT NULL,
+  patron_cuenta_beneficiario TEXT NOT NULL,
+  permite_tipo_cadena_pago INT NOT NULL,
+  requiere_banco_ordenante_nombre_ext INT NOT NULL,
+  vigencia_desde TEXT NOT NULL,
+  vigencia_hasta TEXT NOT NULL,
+  PRIMARY KEY(id)
 );

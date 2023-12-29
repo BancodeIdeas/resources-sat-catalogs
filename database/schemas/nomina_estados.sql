@@ -1,8 +1,11 @@
-CREATE TABLE IF NOT EXISTS "nomina_estados"(
-  "estado" text not null,
-  "pais" text not null,
-  "texto" text not null,
-  "vigencia_desde" text not null,
-  "vigencia_hasta" text not null,
-  PRIMARY KEY("estado", "pais")
+DROP TABLE IF EXISTS nomina_estados;
+
+CREATE TABLE nomina_estados (
+  estado VARCHAR(255) NOT NULL,
+  pais VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  vigencia_desde TEXT NOT NULL,
+  vigencia_hasta TEXT NOT NULL,
+  PRIMARY KEY (estado, pais)
 );
+

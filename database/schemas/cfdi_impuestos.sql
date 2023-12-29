@@ -1,9 +1,11 @@
-CREATE TABLE IF NOT EXISTS "cfdi_impuestos"(
-  "id" text not null,
-  "texto" text not null,
-  "retencion" int not null,
-  "traslado" int not null,
-  "ambito" text not null,
-  "entidad" text not null,
-  PRIMARY KEY("id")
+DROP TABLE IF EXISTS cfdi_impuestos;
+
+CREATE TABLE cfdi_impuestos (
+  id VARCHAR(255) NOT NULL,
+  texto TEXT NOT NULL,
+  retencion INT NOT NULL,
+  traslado INT NOT NULL,
+  ambito TEXT NOT NULL,
+  entidad TEXT NOT NULL,
+  PRIMARY KEY(id)
 );
