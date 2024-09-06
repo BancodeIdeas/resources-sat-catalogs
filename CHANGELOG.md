@@ -443,3 +443,131 @@ Actualización automática con fecha Thu 30 Nov 2023 03:12:50 PM CST
 ## 2023-12-12 phpcfdi/sat-catalogos-populate:v2.7.0 
 
 Actualización automática con fecha Tue 12 Dec 2023 03:11:44 PM CST
+
+## 2023-12-19 phpcfdi/sat-catalogos-populate:v2.7.1 
+
+Actualización automática con fecha Tue 19 Dec 2023 09:12:12 AM CST
+
+## 2023-12-19 phpcfdi/sat-catalogos-populate:v2.7.1 
+
+Actualización automática con fecha Tue 19 Dec 2023 09:11:31 PM CST
+
+## 2024-01-04 phpcfdi/sat-catalogos-populate:v2.7.1 
+
+Actualización automática con fecha Thu 04 Jan 2024 03:11:42 PM CST
+
+## 2024-01-10 phpcfdi/sat-catalogos-populate:v2.8.0 
+
+Actualización automática con fecha Wed 10 Jan 2024 09:15:16 PM CST
+
+## 2024-01-11 phpcfdi/sat-catalogos-populate:v2.8.0 
+
+Actualización automática con fecha Thu 11 Jan 2024 11:40:39 AM CST
+
+## 2024-01-11 Actualización de documentación
+
+- Se ha actualizado la lista de catálogos contenidos en el repositorio.
+- Se ha actualizado la documentación para incluir la forma de exportar a JSON.
+- Se ha agregado la insignia de construcción.
+
+## 2024-01-11 Publicación automática
+
+Se crea un flujo de trabajo *"Automatic release with database"* de GitHub para que cuando se reciba un *tag* con formato `v*.*.*` en la rama `master` y exista un cambio en algún archivo de la carpeta `database/`, se fabrique automáticamente la base de datos y se publique en un *Release* de forma automática.
+
+En el release `v8.2.20240111` se publicó la base de datos sin comprimir. En los siguientes releases se publicará comprimida con el nombre `catalogs.db.bz2`. Además, se agregó la dirección de descarga a la documentación.
+
+## 2024-01-25 phpcfdi/sat-catalogos-populate:v2.8.0 
+
+Actualización automática con fecha Thu 25 Jan 2024 09:12:16 AM CST
+
+## 2024-01-25 phpcfdi/sat-catalogos-populate:v2.8.0 
+
+Actualización automática con fecha Thu 25 Jan 2024 03:12:43 PM CST
+
+## 2024-02-09 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Fri 09 Feb 2024 09:13:36 PM CST
+
+## 2024-02-23 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Fri Feb 23 03:12:06 PM CST 2024
+
+## 2024-03-07 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Thu Mar  7 03:10:24 PM CST 2024
+
+## 2024-03-19 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Tue Mar 19 03:09:39 PM CST 2024.
+
+## 2024-03-21 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Thu Mar 21 03:09:36 PM CST 2024.
+
+## 2024-04-04 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Thu Apr  4 03:08:56 PM CST 2024.
+
+## 2024-04-05 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Fri Apr  5 09:08:54 AM CST 2024.
+
+## 2024-04-09 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Tue Apr  9 09:08:56 AM CST 2024.
+
+## 2024-04-17 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Wed Apr 17 03:09:23 PM CST 2024.
+
+## 2024-04-26 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Fri Apr 26 03:10:56 PM CST 2024.
+
+## 2024-05-13 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Mon May 13 03:09:00 PM CST 2024.
+
+## 2024-05-14 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Tue May 14 03:08:53 PM CST 2024.
+
+## 2024-05-22 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Wed May 22 03:09:30 PM CST 2024.
+
+## 2024-06-05 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Wed Jun  5 03:08:10 PM CST 2024.
+
+## 2024-06-17 phpcfdi/sat-catalogos-populate:v2.8.1 
+
+Actualización automática con fecha Mon Jun 17 03:10:18 PM CST 2024.
+
+## 2024-06-19 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Wed Jun 19 10:09:39 AM CST 2024.
+
+## 2024-07-03 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Wed Jul  3 03:09:35 PM CST 2024.
+
+## 2024-07-17 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Wed Jul 17 03:13:49 PM CST 2024.
+
+## 2024-07-26 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Fri Jul 26 09:13:01 AM CST 2024.
+
+## 2024-07-31 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Wed Jul 31 03:15:35 PM CST 2024.
+
+## 2024-08-15 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Thu Aug 15 03:15:29 PM CST 2024.
+
+## 2024-08-28 phpcfdi/sat-catalogos-populate:v2.9.0 
+
+Actualización automática con fecha Wed Aug 28 09:16:55 AM CST 2024.
